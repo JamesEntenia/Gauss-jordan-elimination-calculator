@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+    <TextView
+        android:id="@+id/firstEachLVX"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/ThirdEachLVZ"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/SecondEachLVZ"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/SecondEachLVY"
+        android:layout_toRightOf="@+id/SecondEachLVY"
+        android:text="TextView"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/ThirdEachLVY"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/SecondEachLVY"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/SecondEachLVX"
+        android:layout_toRightOf="@+id/SecondEachLVX"
+        android:text="TextView"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/firstEachLVZ"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/SecondEachLVY"
+        android:layout_toRightOf="@+id/SecondEachLVY"
+        android:text="TextView"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/firstEachLVY"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/SecondEachLVX"
+        android:layout_toRightOf="@+id/SecondEachLVX"
+        android:text="TextView"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/SecondEachLVX"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/firstEachLVX"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="TextView"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/SecondEachLVY"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/firstEachLVY"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/SecondEachLVX"
+        android:layout_toRightOf="@+id/SecondEachLVX"
+        android:text="TextView"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/SecondEachLVZ"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/firstEachLVZ"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/SecondEachLVY"
+        android:layout_toRightOf="@+id/SecondEachLVY"
+        android:text="TextView"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/firstEachLVF"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/SecondEachLVZ"
+        android:layout_toRightOf="@+id/SecondEachLVZ"
+        android:text="TextView"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/SecondEachLVF"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/firstEachLVF"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@+id/SecondEachLVZ"
+        android:layout_toRightOf="@+id/SecondEachLVZ"
+        android:text="TextView"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/ThirdEachLVF"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/SecondEachLVF"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@+id/SecondEachLVZ"
+        android:layout_toRightOf="@+id/SecondEachLVZ"
+        android:text="TextView"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/ThirdEachLVX"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/SecondEachLVX"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="TextView"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/Row"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/sadf"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="1dp"
+        android:text="TextView"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="1dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_toEndOf="@+id/firstEachLVZ"
+        android:layout_toRightOf="@+id/firstEachLVZ"
+        android:background="@android:color/darker_gray"
+        android:textColor="?attr/colorButtonNormal" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:textColor="?attr/colorButtonNormal" />
+
+    <TextView
+        android:id="@+id/sadf"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/darker_gray"
+        android:textColor="?attr/colorButtonNormal" />
+
+</RelativeLayout>
